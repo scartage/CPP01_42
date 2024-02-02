@@ -1,4 +1,4 @@
-Punteros vs Referencias en C++
+# Punteros vs Referencias en C++
 
 En C++, tanto los punteros como las referencias ofrecen maneras de interactuar con otros valores, permitiendo cambiar datos en diferentes partes de un programa. Aunque tienen propósitos similares, existen diferencias clave en su uso, sintaxis y capacidades.
 
@@ -6,17 +6,17 @@ En C++, tanto los punteros como las referencias ofrecen maneras de interactuar c
 
 Los punteros son variables que almacenan la dirección de memoria de otro valor y pueden ser reasignados para apuntar a diferentes direcciones de memoria.
 
-**Sintaxis**
-Declaración: `Tipo* nombrePuntero;`
-Asignación: `nombrePuntero = &variable;`
-Acceso: `*nombrePuntero = nuevoValor;`
+**Sintaxis**<br>
+Declaración: `Tipo* nombrePuntero;`<br>
+Asignación: `nombrePuntero = &variable;`<br>
+Acceso: `*nombrePuntero = nuevoValor;`<br>
 
 **Referencias**
 
 Las referencias son alias para otra variable y, una vez inicializadas, no pueden ser cambiadas para referirse a otra variable.
 
-**Sintaxis**
-Declaración y asignación: `Tipo& nombreReferencia = variable;`
+**Sintaxis**<br>
+Declaración y asignación: `Tipo& nombreReferencia = variable;`<br>
 Acceso: `nombreReferencia = nuevoValor;`
 
 **Características**
