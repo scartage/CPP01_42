@@ -18,5 +18,4 @@ int main(void){
     std::cout << "value held on stringREF: " << stringREF << std::endl;
 
     return 0;
-
 }
