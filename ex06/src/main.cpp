@@ -1,4 +1,5 @@
 #include "Harl.hpp"
+#include <cctype>
 
 int main(int ac, char **av){
     if (ac != 2){
@@ -7,6 +8,9 @@ int main(int ac, char **av){
     }
 
     std::string levelStr = av[1];
+    for (size_t i = 0; i < levelStr.length(); i++){
+        levelStr[i] =  std::toupper(levelStr[i]);
+    }
     logLevel level = getLogLevel(levelStr);
 
     Harl harl;

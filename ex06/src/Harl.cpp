@@ -34,10 +34,13 @@ void Harl::complain( logLevel level){
     {
     case DEBUG:
         debug();
+        // fall through
     case INFO:
         this->info();
+        // fall through
     case WARNING:
         this->warning();
+        // fall through
     case ERROR:
         this->error();
         break ;
